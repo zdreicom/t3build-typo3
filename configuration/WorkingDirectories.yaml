@@ -1,0 +1,17 @@
+condition:
+  tags:
+  - typo3-cms-extension
+  config:
+    workingDirectories:
+      php:
+        path:
+          - Classes
+          - Tests
+      sass:
+        path:
+          - Resources/Private/Sass
+        outputPath: Resources/Public/StyleSheets
+      typescript:
+        path:
+          - Resources/Private/TypeScript
+        outputPath: Resources/Public/JavaScripts

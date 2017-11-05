@@ -1,0 +1,32 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.z3.ag/"
+    },
+    {
+      "packagist.org": false
+    }
+  ],
+  "name": "z3/t3build-typo3",
+  "description": "This package supports you for being an typo3 develop and build environment supporting gitlab",
+  "type": "t3build-package",
+  "license": ["MIT"],
+  "require": {
+    "php": ">=7.0.0",
+    "typo3/cms": "^8.7 || ^9.0",
+    "friendsofphp/php-cs-fixer": "^2.0",
+    "nimut/testing-framework": "^1.0",
+    "z3/t3build": "*"
+  },
+  "config": {
+    "vendor-dir": ".Build/vendor",
+    "bin-dir": ".Build/bin"
+  },
+  "extra": {
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/web"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+condition:
+  tags:
+  - typo3-cms
+  config:
+    deployer:
+      shared-dirs:
+        - '{{webroot}}/files'
+        - '{{webroot}}/typo3temp'
+        - '{{webroot}}/typo3conf/l10n'
+        - '{{webroot}}/uploads'
+        - 'privatestorages'
+    
+      shared-files:
+        - '{{webroot}}/.htaccess'
+        - '{{webroot}}/typo3conf/LocalConfiguration.php'
+    
+      writable-dirs:
+        - '{{webroot}}/files'
+        - '{{webroot}}/typo3temp'
+        - '{{webroot}}/typo3conf'
+        - '{{webroot}}/uploads'
+        - 'privatestorages'
