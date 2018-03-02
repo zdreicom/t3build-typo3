@@ -12,6 +12,7 @@ condition:
     
       shared-files:
         - '{{webroot}}/.htaccess'
+        - '{{webroot}}/.robots.txt'
         - '{{webroot}}/typo3conf/LocalConfiguration.php'
     
       writable-dirs:
