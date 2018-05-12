@@ -16,7 +16,7 @@
     "php": ">=7.0.0",
     "typo3/cms": "^8.7 || ^9.0",
     "friendsofphp/php-cs-fixer": "^2.0",
-    "nimut/testing-framework": "^1.0",
+    "nimut/testing-framework": "^2.0",
     "z3/t3build": "*"
   },
   "config": {
