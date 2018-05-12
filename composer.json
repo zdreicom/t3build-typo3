@@ -14,7 +14,7 @@
   "license": ["MIT"],
   "require": {
     "php": ">=7.0.0",
-    "typo3/cms": "^8.7 || ^9.0",
+    "typo3/cms-core": "^8.7 || ^9.0",
     "friendsofphp/php-cs-fixer": "^2.0",
     "z3/t3build": "*"
   },
